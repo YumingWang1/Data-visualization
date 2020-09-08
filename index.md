@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/YumingWang1/Data-visualiza
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+One page Summary:
+
 After read that Video from Stanford's website named Journalism in the Age of Data, I know some current situation for journalism and how important data visulization imply on this field.
 
 In recent years, journalists cooperate with computer scientsts, researchers and artists for data visulization. They use data visualization techniques let the data easy to know and make as news.Some journalists company start retools the staff to prepare the data medium in the future. Because the explosion of data brought a complementary need for tools to analyze it, so how to communicate with data and data visulization already become a problem.
