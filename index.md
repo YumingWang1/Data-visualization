@@ -10,6 +10,19 @@ In recent years, journalists cooperate with computer scientsts, researchers and 
 
 But a lot of expert of data visualization are helping by bilding tools for these journalists.And also journalists are finding ways to explain visualization data instead of tradition data. But how to explain these visualization effectively also is a problem. Nowadays, data is become very important in our life, and will exist in everywhere. So its challenging our ability to adsorb, analyze and display. However, the good news is the technology for data visualization are in transition, its will help us to connect data and visualization together easily.
 
+ten bullet points of observations:
+- Training eyes is very very important, you can't come up with ideas if you don't see first
+- I saw some obstract graphics
+- Some Cube, Bottle
+- Some beautiful carved letters
+- some letters draw from thin to thick
+- amazing airline graphic
+- color percent square
+- beautiful texture
+- beautiful flower
+- amazing U.S. map
+
+
 ### Code
 
 This is my Data Visualization Code
