@@ -23,9 +23,9 @@ Ten bullet points of observations:
 - beautiful flower
 - amazing U.S. map
 
-Review of video "Bach, Hugue in A minor, BMV904"
+Review of video "Bach, Hugue in A minor, BMV904":
 
-When I watched this video, I heard a very nice music. Aand I saw a lot of circles in the lines, and it's become more complicated with the flow. Then I saw a lots of squares with the flow. it's looks like piano's keyboard. this video visualized the melody use square, circles and lines. It's very amazing for me!
+When I watched this video, I heard a very nice music. And I saw a lot of circles in the lines, and it's become more complicated with the flow. Then I saw a lots of squares with the flow. it's looks like piano's keyboard. this video visualized the melody use square, circles and lines. It's very amazing for me!
 
 
 ### Code
