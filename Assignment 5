@@ -1,0 +1,24 @@
+
+library(ggplot2)
+# Basic barplot
+p<-ggplot(data=China_data, aes(x=China_data$Year, y=China_data$`Average Wage`)) +
+  geom_histogram(stat="identity")
+p
+
+
+library(ggplot2)
+# Basic barplot
+p<-ggplot(data=China_data, aes(x=China_data$Year, y=China_data$`Average Wage`)) +
+  geom_density(stat="identity")
+p
+
+library(ggplot2)
+# Basic barplot
+p<-ggplot(data=China_data, aes(x=China_data$Year, y=China_data$`Average Wage`)) +
+  geom_histogram(stat="identity") + geom_density(stat="identity") 
+p
+
+p<-ggplot(data=China_data, aes(x=China_data$Year, y=China_data$`Average Wage`)) + geom_histogram(stat="identity") +
+  geom_density(stat="identity")+
+  coord_polar()
+p
