@@ -1,0 +1,31 @@
+﻿Sectors,GrowthRate,Country
+Average Wage,1.7241,China
+Mining,1.3768,China
+Manufacturing,1.8549,China
+Production and supply of Utilities,1.486,China
+Construction,1.561,China
+Wholesale and Retail Trades,1.5416,China
+"Transport, Storage and Post",1.5745,China
+Information Transmission and software,1.7099,China
+Financial Intermediation,1.067,China
+Education,1.1944,China
+Average Wage,0.2535,U.S.
+Mining,0.323,U.S.
+Manufacturing,0.2169,U.S.
+Production and supply of Utilities,0.3249,U.S.
+Construction,0.2938,U.S.
+Wholesale and Retail Trades,0.231,U.S.
+"Transport, Storage and Post",0.2123,U.S.
+Information Transmission and software,0.3754,U.S.
+Financial Intermediation,0.3494,U.S.
+Education,0.2275,U.S.
+Average Wage,0.2159,Canada
+Mining,0.3086,Canada
+Manufacturing,0.1705,Canada
+Production and supply of Utilities,0.2879,Canada
+Construction,0.2099,Canada
+Wholesale and Retail Trades,0.2197,Canada
+"Transport, Storage and Post",0.2084,Canada
+Information Transmission and software,0.1918,Canada
+Financial Intermediation,0.2634,Canada
+Education,0.199,Canada
