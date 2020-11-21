@@ -69,7 +69,7 @@ ggplot(data, aes(ymin = 2009)) +
 ### Project
 
 This is my Project Collection
-<iframe width="700" height="800" src=" https://yumingwang.shinyapps.io/FinalProject/" frameborder="0" allowfullscreen></iframe> 
+<iframe width="700" height="700" src=" https://yumingwang.shinyapps.io/FinalProject/" frameborder="0" allowfullscreen></iframe> 
 
 ### Personal Information
 
