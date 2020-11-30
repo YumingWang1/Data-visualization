@@ -1,0 +1,48 @@
+
+library(ggplot2)
+# Basic barplot
+p<-ggplot(data=China_data, aes(x=China_data$Year, y=China_data$`Average Wage`)) +
+  geom_bar(stat="identity",width=0.5)
+p
+
+# Horizontal bar plot
+p + coord_flip()
+
+library(ggplot2)
+p<-ggplot(data=growthrate, aes(x=Sectors, y=rate, fill=Country)) +
+  geom_bar(stat="identity", position=position_dodge())+
+
+ geom_text(aes(label=rate), vjust=1.6, color="white",
+        position = position_dodge(0.9), size=3.5)+
+ scale_fill_brewer(palette="Paired")+
+  theme_minimal()
+ p
+
+# Variable Width Column Chart
+library(ggplot2)
+library(hrbrthemes)
+
+# make data
+data <- data.frame(
+  group=c("A ","B ","C ","D ","E","F","G","H","I","J") , 
+  value=c(2009,2010,2011,2012,2013,2014,2015,2016,2017,2018) , 
+  number_of_obs=c(2676,3052,3611,8228,8809,15351,9821,16298,6729,7290)
+)
+
+# Calculate the future positions on the x axis of each bar (left border, central position, right border)
+data$right <- cumsum(data$number_of_obs) + 3000*c(0:(nrow(data)-1))
+data$left <- data$right - data$number_of_obs 
+
+# Plot
+ggplot(data, aes(ymin = 2009)) + 
+  geom_rect(aes(xmin = left, xmax = right, ymax=value,colour = group, fill = group)) +
+  xlab("Average Wage") + 
+  ylab("Year") +
+  theme_ipsum() +
+  theme(legend.position="none") 
+
+barplot(colSums(our_data[,c("China","U.S.","Canada")]),
+        ylab="Country",
+        xlab="Growth Rate",
+        names.arg = c("China","U.S.","Canada"),
+        col = color)

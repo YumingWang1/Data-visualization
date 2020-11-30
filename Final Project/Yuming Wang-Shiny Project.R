@@ -4,7 +4,7 @@ library(ggplot2)
 require("readr")
 require("shiny")
 library(tidyverse)
-#gr <- read_csv("https://raw.githubusercontent.com/YumingWang1/Data-visualization/master/gr.csv")
+gr <- read_csv("https://raw.githubusercontent.com/YumingWang1/Data-visualization/master/gr.csv")
 ui <- fluidPage(
   titlePanel(title = h4("Growth Rate for China, U.S. and Canada by each sector in last decade", align="center")),
   sidebarPanel(
